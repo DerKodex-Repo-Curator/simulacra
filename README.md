@@ -38,7 +38,7 @@
 
 <div align="center">
 
-![Simulacra Demo](./public/demo.gif)
+![Simulacra Demo](.web/public/demo.gif)
 
 </div>
 
