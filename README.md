@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <br/>
@@ -38,7 +39,7 @@
 
 <div align="center">
 
-![Simulacra Demo](.web/public/demo.gif)
+![Simulacra Demo](./home/koutrou172/projects/simulacra/web/public)
 
 </div>
 
