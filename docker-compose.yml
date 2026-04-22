@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  simulacra:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      # Option A: Use Ollama running on your host machine
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - OLLAMA_MODEL=llama3
+      # Option B: Use Groq (free, fast, no local GPU needed)
+      # - LLM_PROVIDER=groq
+      # - GROQ_API_KEY=your_key_here
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+  # Uncomment to run Ollama inside Docker too (needs GPU passthrough)
+  # ollama:
+  #   image: ollama/ollama
+  #   ports:
+  #     - "11434:11434"
+  #   volumes:
+  #     - ollama_data:/root/.ollama
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities: [gpu]
+
+# volumes:
+#   ollama_data:
