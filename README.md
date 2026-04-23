@@ -252,6 +252,22 @@ Inject a piece of misinformation and observe:
 
 ---
 
+## 📊 Real Example: Watch Misinformation Spread
+
+Here's what happens when you inject a headline into Simulacra:
+
+**Injected News:** "AI announces plans to replace all politicians with GPT-5"
+
+**Agent Reactions (actual output):**
+- **The Tech Doomer**: "This is it. The singularity is happening. RIP democracy. We're doomed."
+- **The Crypto Bro**: "Bitcoin will be the only currency when AIs run the world. Loading bags now 🚀"
+- **The AI Accelerationist**: "STOP CODDLING HUMAN POLITICIANS. LET THE AIS RUN THINGS. MAXIMUM ACCELERATION."
+- **The Naive Optimist**: "Maybe... maybe they'll make better decisions than we do? 😅"
+
+One headline. Seven different realities. Zero consensus. **This is how information wars actually work.**
+
+---
+
 ## 🤝 Contributing
 
 PRs welcome. New agent personas, new features, new LLM providers.
